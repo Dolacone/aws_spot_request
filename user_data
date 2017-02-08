@@ -1,0 +1,4 @@
+#!/bin/bash
+sed -i.bak 's/.*ssh-rsa/ssh-rsa/g' /root/.ssh/authorized_keys
+
+sudo apt update
